@@ -1,0 +1,128 @@
+--------------------Input---------------------
+Movement=true
+floorNumber=1
+corridorNumber=1
+timeSpan=0
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: OFF]
+
+***************Power consumption under control***************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+--------------------Input---------------------
+Movement=true
+floorNumber=1
+corridorNumber=2
+timeSpan=0
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: ON, AC: ON]
+
+*****************************************************************
+***************Power consumption cannot be reduced***************
+*****************************************************************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+--------------------Input---------------------
+Movement=false
+floorNumber=1
+corridorNumber=2
+timeSpan=60
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+--------------------Input---------------------
+Movement=true
+floorNumber=2
+corridorNumber=1
+timeSpan=0
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: OFF]
+
+***************Power consumption under control***************
+--------------------Input---------------------
+Movement=false
+floorNumber=2
+corridorNumber=1
+timeSpan=60
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+--------------------Input---------------------
+Movement=true
+floorNumber=2
+corridorNumber=2
+timeSpan=0
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: OFF]
+SUB CORRIDOR: 2 [LIGHT: ON, AC: ON]
+
+***************Power consumption under control***************
+--------------------Input---------------------
+Movement=false
+floorNumber=2
+corridorNumber=2
+timeSpan=60
+--------------------Output---------------------
+Floor: 1
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************
+Floor: 2
+MAIN CORRIDOR: 1 [LIGHT: ON, AC: ON]
+SUB CORRIDOR: 1 [LIGHT: OFF, AC: ON]
+SUB CORRIDOR: 2 [LIGHT: OFF, AC: ON]
+
+***************Power consumption under control***************

@@ -1,0 +1,40 @@
+[
+	{
+		"floorNumber": 1,
+		"corridorNumber": 1,
+		"movement": true
+	},
+	{
+		"floorNumber": 1,
+		"corridorNumber": 2,
+		"movement": true
+	},
+	{
+		"floorNumber": 1,
+		"corridorNumber": 2,
+		"movement": false,
+		"noMotionTimeSpan": 60
+	},
+	{
+		"floorNumber": 2,
+		"corridorNumber": 1,
+		"movement": true
+	},
+	{
+		"floorNumber": 2,
+		"corridorNumber": 1,
+		"movement": false,
+		"noMotionTimeSpan": 60
+	},
+	{
+		"floorNumber": 2,
+		"corridorNumber": 2,
+		"movement": true
+	},
+	{
+		"floorNumber": 2,
+		"corridorNumber": 2,
+		"movement": false,
+		"noMotionTimeSpan": 60
+	}
+]
